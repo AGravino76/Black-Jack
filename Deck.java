@@ -3,7 +3,7 @@ import java.util.Collections;
 public class Deck {
     private Card[] deckOfCards = new Card[52];
 
-    //pain
+    //create every single version of a card
     public Deck(){
         deckOfCards[0] = new Card("Two", "Spades", 2);
         deckOfCards[1] = new Card("Three", "Spades", 3);
